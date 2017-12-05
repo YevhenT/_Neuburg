@@ -22,6 +22,8 @@
 		62493D5F1FD6A38C0058BB87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62493D5D1FD6A38C0058BB87 /* InfoPlist.strings */; };
 		62493D611FD6A38C0058BB87 /* NoeburgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D601FD6A38C0058BB87 /* NoeburgTests.m */; };
 		62493D6D1FD6A4340058BB87 /* CodeScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D6C1FD6A4340058BB87 /* CodeScrollViewVC.m */; };
+		625E16F41FD6B94400EA8FAD /* XibScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */; };
+		625E16F81FD6C25600EA8FAD /* XibScrollViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		62493D601FD6A38C0058BB87 /* NoeburgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoeburgTests.m; sourceTree = "<group>"; };
 		62493D6B1FD6A4340058BB87 /* CodeScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeScrollViewVC.h; path = ch7_ScrollView/CodeScrollViewVC.h; sourceTree = "<group>"; };
 		62493D6C1FD6A4340058BB87 /* CodeScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodeScrollViewVC.m; path = ch7_ScrollView/CodeScrollViewVC.m; sourceTree = "<group>"; };
+		625E16F21FD6B94400EA8FAD /* XibScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XibScrollViewVC.h; path = ch7_ScrollView/XibScrollViewVC.h; sourceTree = "<group>"; };
+		625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XibScrollViewVC.m; path = ch7_ScrollView/XibScrollViewVC.m; sourceTree = "<group>"; };
+		625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XibScrollViewVC.xib; path = ch7_ScrollView/XibScrollViewVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +166,9 @@
 			children = (
 				62493D6B1FD6A4340058BB87 /* CodeScrollViewVC.h */,
 				62493D6C1FD6A4340058BB87 /* CodeScrollViewVC.m */,
+				625E16F21FD6B94400EA8FAD /* XibScrollViewVC.h */,
+				625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */,
+				625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */,
 			);
 			name = ch7_ScrollView;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 			files = (
 				62493D4E1FD6A38B0058BB87 /* Images.xcassets in Resources */,
 				62493D401FD6A38B0058BB87 /* InfoPlist.strings in Resources */,
+				625E16F81FD6C25600EA8FAD /* XibScrollViewVC.xib in Resources */,
 				62493D491FD6A38B0058BB87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +273,7 @@
 			files = (
 				62493D4C1FD6A38B0058BB87 /* ViewController.m in Sources */,
 				62493D461FD6A38B0058BB87 /* AppDelegate.m in Sources */,
+				625E16F41FD6B94400EA8FAD /* XibScrollViewVC.m in Sources */,
 				62493D421FD6A38B0058BB87 /* main.m in Sources */,
 				62493D6D1FD6A4340058BB87 /* CodeScrollViewVC.m in Sources */,
 			);
@@ -470,6 +480,7 @@
 				62493D661FD6A38C0058BB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62493D671FD6A38C0058BB87 /* Build configuration list for PBXNativeTarget "NoeburgTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +489,7 @@
 				62493D691FD6A38C0058BB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
