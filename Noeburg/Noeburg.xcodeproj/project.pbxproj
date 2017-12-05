@@ -13,7 +13,6 @@
 		62493D401FD6A38B0058BB87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62493D3E1FD6A38B0058BB87 /* InfoPlist.strings */; };
 		62493D421FD6A38B0058BB87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D411FD6A38B0058BB87 /* main.m */; };
 		62493D461FD6A38B0058BB87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D451FD6A38B0058BB87 /* AppDelegate.m */; };
-		62493D491FD6A38B0058BB87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62493D471FD6A38B0058BB87 /* Main.storyboard */; };
 		62493D4C1FD6A38B0058BB87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D4B1FD6A38B0058BB87 /* ViewController.m */; };
 		62493D4E1FD6A38B0058BB87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62493D4D1FD6A38B0058BB87 /* Images.xcassets */; };
 		62493D551FD6A38C0058BB87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62493D541FD6A38C0058BB87 /* XCTest.framework */; };
@@ -22,6 +21,8 @@
 		62493D5F1FD6A38C0058BB87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62493D5D1FD6A38C0058BB87 /* InfoPlist.strings */; };
 		62493D611FD6A38C0058BB87 /* NoeburgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D601FD6A38C0058BB87 /* NoeburgTests.m */; };
 		62493D6D1FD6A4340058BB87 /* CodeScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D6C1FD6A4340058BB87 /* CodeScrollViewVC.m */; };
+		624B5B2A1FD710F9007F1473 /* Main_ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624B5B291FD710F9007F1473 /* Main_ScrollView.storyboard */; };
+		624B5B2C1FD71216007F1473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624B5B2B1FD71216007F1473 /* Main.storyboard */; };
 		625E16F41FD6B94400EA8FAD /* XibScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */; };
 		625E16F81FD6C25600EA8FAD /* XibScrollViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */; };
 		625E16FE1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E16FD1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m */; };
@@ -48,7 +49,6 @@
 		62493D431FD6A38B0058BB87 /* Noeburg-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noeburg-Prefix.pch"; sourceTree = "<group>"; };
 		62493D441FD6A38B0058BB87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62493D451FD6A38B0058BB87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		62493D481FD6A38B0058BB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62493D4A1FD6A38B0058BB87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		62493D4B1FD6A38B0058BB87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62493D4D1FD6A38B0058BB87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		62493D601FD6A38C0058BB87 /* NoeburgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoeburgTests.m; sourceTree = "<group>"; };
 		62493D6B1FD6A4340058BB87 /* CodeScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeScrollViewVC.h; path = ch7_ScrollView/CodeScrollViewVC.h; sourceTree = "<group>"; };
 		62493D6C1FD6A4340058BB87 /* CodeScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodeScrollViewVC.m; path = ch7_ScrollView/CodeScrollViewVC.m; sourceTree = "<group>"; };
+		624B5B291FD710F9007F1473 /* Main_ScrollView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_ScrollView.storyboard; sourceTree = "<group>"; };
+		624B5B2B1FD71216007F1473 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		625E16F21FD6B94400EA8FAD /* XibScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XibScrollViewVC.h; path = ch7_ScrollView/XibScrollViewVC.h; sourceTree = "<group>"; };
 		625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XibScrollViewVC.m; path = ch7_ScrollView/XibScrollViewVC.m; sourceTree = "<group>"; };
 		625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XibScrollViewVC.xib; path = ch7_ScrollView/XibScrollViewVC.xib; sourceTree = "<group>"; };
@@ -125,8 +127,8 @@
 			children = (
 				62493D6A1FD6A3CD0058BB87 /* ch7_ScrollView */,
 				62493D441FD6A38B0058BB87 /* AppDelegate.h */,
+				624B5B2B1FD71216007F1473 /* Main.storyboard */,
 				62493D451FD6A38B0058BB87 /* AppDelegate.m */,
-				62493D471FD6A38B0058BB87 /* Main.storyboard */,
 				62493D4A1FD6A38B0058BB87 /* ViewController.h */,
 				62493D4B1FD6A38B0058BB87 /* ViewController.m */,
 				62493D4D1FD6A38B0058BB87 /* Images.xcassets */,
@@ -174,6 +176,7 @@
 				625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */,
 				625E16FC1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.h */,
 				625E16FD1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m */,
+				624B5B291FD710F9007F1473 /* Main_ScrollView.storyboard */,
 			);
 			name = ch7_ScrollView;
 			sourceTree = "<group>";
@@ -255,9 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				62493D4E1FD6A38B0058BB87 /* Images.xcassets in Resources */,
+				624B5B2C1FD71216007F1473 /* Main.storyboard in Resources */,
+				624B5B2A1FD710F9007F1473 /* Main_ScrollView.storyboard in Resources */,
 				62493D401FD6A38B0058BB87 /* InfoPlist.strings in Resources */,
 				625E16F81FD6C25600EA8FAD /* XibScrollViewVC.xib in Resources */,
-				62493D491FD6A38B0058BB87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +314,6 @@
 				62493D3F1FD6A38B0058BB87 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		62493D471FD6A38B0058BB87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62493D481FD6A38B0058BB87 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		62493D5D1FD6A38C0058BB87 /* InfoPlist.strings */ = {
