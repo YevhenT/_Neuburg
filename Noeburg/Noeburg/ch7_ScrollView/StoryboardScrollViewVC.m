@@ -23,10 +23,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.rootView.frame = [[UIScreen mainScreen] bounds];
-    self.scrollView.frame = CGRectMake(0, 45, self.rootView.bounds.size.width, self.rootView.bounds.size.height - 45);
-    self.scrollView.contentSize = self.contentView.bounds.size;
+  
+//для варианта без автолейаут и с растянутым вью в сторибоард
+//    self.rootView.frame = [[UIScreen mainScreen] bounds];
+//    self.scrollView.frame = CGRectMake(0, 45, self.rootView.bounds.size.width, self.rootView.bounds.size.height - 45);
+//    self.scrollView.contentSize = self.contentView.bounds.size;
 }
 
 - (void)didReceiveMemoryWarning
