@@ -24,6 +24,7 @@
 		62493D6D1FD6A4340058BB87 /* CodeScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D6C1FD6A4340058BB87 /* CodeScrollViewVC.m */; };
 		625E16F41FD6B94400EA8FAD /* XibScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */; };
 		625E16F81FD6C25600EA8FAD /* XibScrollViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */; };
+		625E16FE1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E16FD1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		625E16F21FD6B94400EA8FAD /* XibScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XibScrollViewVC.h; path = ch7_ScrollView/XibScrollViewVC.h; sourceTree = "<group>"; };
 		625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XibScrollViewVC.m; path = ch7_ScrollView/XibScrollViewVC.m; sourceTree = "<group>"; };
 		625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XibScrollViewVC.xib; path = ch7_ScrollView/XibScrollViewVC.xib; sourceTree = "<group>"; };
+		625E16FC1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryboardScrollViewVC.h; path = ch7_ScrollView/StoryboardScrollViewVC.h; sourceTree = "<group>"; };
+		625E16FD1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryboardScrollViewVC.m; path = ch7_ScrollView/StoryboardScrollViewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 				625E16F21FD6B94400EA8FAD /* XibScrollViewVC.h */,
 				625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */,
 				625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */,
+				625E16FC1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.h */,
+				625E16FD1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m */,
 			);
 			name = ch7_ScrollView;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				625E16F41FD6B94400EA8FAD /* XibScrollViewVC.m in Sources */,
 				62493D421FD6A38B0058BB87 /* main.m in Sources */,
 				62493D6D1FD6A4340058BB87 /* CodeScrollViewVC.m in Sources */,
+				625E16FE1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
