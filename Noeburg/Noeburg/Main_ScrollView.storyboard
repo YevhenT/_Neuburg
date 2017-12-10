@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="0ks-QU-fi7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="WdK-JH-fk3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -32,11 +32,11 @@
                                 <rect key="frame" x="0.0" y="45" width="320" height="523"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkO-t5-R7Y">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkO-t5-R7Y" userLabel="contentView">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="956"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ONE (STORYBOARD)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMU-eL-e7I">
+                                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ONE (STORYBOARD)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMU-eL-e7I">
                                                 <rect key="frame" x="37" y="20" width="246" height="119"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -48,7 +48,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TWO (STORYBOARD)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yA4-hI-iRz">
+                                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TWO (STORYBOARD)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yA4-hI-iRz">
                                                 <rect key="frame" x="37" y="817" width="246" height="119"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -110,7 +110,133 @@
             </objects>
             <point key="canvasLocation" x="77" y="-39"/>
         </scene>
+        <!--Paging Scroll ViewVC-->
+        <scene sceneID="su0-Bj-od6">
+            <objects>
+                <viewController id="HtD-Dg-Vvd" customClass="PagingScrollViewVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4hx-6n-y5J"/>
+                        <viewControllerLayoutGuide type="bottom" id="iim-EA-O92"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ADR-9V-y8m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PagingScrollViewVC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jef-mm-f3B">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Bnj-55-NlH"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="320" id="ekL-oB-iWb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jAg-tz-cbf">
+                                <rect key="frame" x="0.0" y="45" width="320" height="524"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yVO-aj-jAu" userLabel="contentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="960" height="960"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landscape_960.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bEx-3G-d5O">
+                                                <rect key="frame" x="0.0" y="0.0" width="960" height="960"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="bEx-3G-d5O" firstAttribute="top" secondItem="yVO-aj-jAu" secondAttribute="top" id="T7E-ad-gmj"/>
+                                            <constraint firstAttribute="trailing" secondItem="bEx-3G-d5O" secondAttribute="trailing" id="csJ-yT-oBb"/>
+                                            <constraint firstItem="bEx-3G-d5O" firstAttribute="leading" secondItem="yVO-aj-jAu" secondAttribute="leading" id="kzl-ba-XlV"/>
+                                            <constraint firstAttribute="bottom" secondItem="bEx-3G-d5O" secondAttribute="bottom" id="rES-fI-SJq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yVO-aj-jAu" firstAttribute="top" secondItem="jAg-tz-cbf" secondAttribute="top" id="Ilc-E8-ZdN"/>
+                                    <constraint firstAttribute="bottom" secondItem="yVO-aj-jAu" secondAttribute="bottom" id="hnl-i4-xJs"/>
+                                    <constraint firstAttribute="trailing" secondItem="yVO-aj-jAu" secondAttribute="trailing" id="l8G-ho-m1J"/>
+                                    <constraint firstItem="yVO-aj-jAu" firstAttribute="leading" secondItem="jAg-tz-cbf" secondAttribute="leading" id="lav-I1-TXQ"/>
+                                </constraints>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="IBW-ES-ube">
+                                <rect key="frame" x="140" y="266" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="userDidPage:" destination="HtD-Dg-Vvd" eventType="valueChanged" id="eky-SX-wiL"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jef-mm-f3B" firstAttribute="top" secondItem="ADR-9V-y8m" secondAttribute="top" id="0ST-IS-Dds"/>
+                            <constraint firstItem="jAg-tz-cbf" firstAttribute="top" secondItem="4hx-6n-y5J" secondAttribute="bottom" constant="25" id="WOx-Wb-8bj"/>
+                            <constraint firstItem="iim-EA-O92" firstAttribute="top" secondItem="jAg-tz-cbf" secondAttribute="bottom" constant="-1" id="Wum-du-eab"/>
+                            <constraint firstAttribute="trailing" secondItem="jef-mm-f3B" secondAttribute="trailing" id="XPx-Ii-dh3"/>
+                            <constraint firstAttribute="trailing" secondItem="IBW-ES-ube" secondAttribute="trailing" constant="141" id="Xg1-oT-Xy2"/>
+                            <constraint firstAttribute="trailing" secondItem="jAg-tz-cbf" secondAttribute="trailing" id="Xx2-J4-h6r"/>
+                            <constraint firstItem="IBW-ES-ube" firstAttribute="top" secondItem="jef-mm-f3B" secondAttribute="bottom" constant="221" id="dTz-0Y-KBQ"/>
+                            <constraint firstItem="iim-EA-O92" firstAttribute="top" secondItem="IBW-ES-ube" secondAttribute="bottom" constant="265" id="g8f-AH-4sP"/>
+                            <constraint firstItem="jef-mm-f3B" firstAttribute="leading" secondItem="ADR-9V-y8m" secondAttribute="leading" id="otI-kB-049"/>
+                            <constraint firstItem="jAg-tz-cbf" firstAttribute="leading" secondItem="ADR-9V-y8m" secondAttribute="leading" id="syv-dn-GKt"/>
+                            <constraint firstItem="IBW-ES-ube" firstAttribute="leading" secondItem="ADR-9V-y8m" secondAttribute="leading" constant="140" id="t3W-QG-URb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pager" destination="IBW-ES-ube" id="XbH-GV-Zxl"/>
+                        <outlet property="scrollView" destination="jAg-tz-cbf" id="ljn-Zu-SXq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gl5-W2-6kr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428" y="-39"/>
+        </scene>
+        <!--Zoom Scroll ViewVC-->
+        <scene sceneID="y52-uY-E7g">
+            <objects>
+                <viewController id="WdK-JH-fk3" customClass="ZoomScrollViewVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QwJ-Bj-aY9"/>
+                        <viewControllerLayoutGuide type="bottom" id="3PI-DI-I2I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9ah-tv-Hbv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5t8-d1-uk0">
+                                <rect key="frame" x="0.0" y="45" width="320" height="523"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="duK-me-n0b">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="523"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ZoomScrollViewVC (CODE)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVm-Cl-Ddj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mNL-8x-Wdv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815" y="-39"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="landscape_960.jpg" width="960" height="960"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

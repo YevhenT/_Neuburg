@@ -23,9 +23,13 @@
 		62493D6D1FD6A4340058BB87 /* CodeScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62493D6C1FD6A4340058BB87 /* CodeScrollViewVC.m */; };
 		624B5B2A1FD710F9007F1473 /* Main_ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624B5B291FD710F9007F1473 /* Main_ScrollView.storyboard */; };
 		624B5B2C1FD71216007F1473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624B5B2B1FD71216007F1473 /* Main.storyboard */; };
+		62503A941FD7FA8500937A8F /* landscape_960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62503A931FD7FA8500937A8F /* landscape_960.jpg */; };
+		62503A971FD8049200937A8F /* TillingScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62503A961FD8049200937A8F /* TillingScrollViewVC.m */; };
+		62503A9A1FD80D1100937A8F /* ZoomScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62503A991FD80D1100937A8F /* ZoomScrollViewVC.m */; };
 		625E16F41FD6B94400EA8FAD /* XibScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */; };
 		625E16F81FD6C25600EA8FAD /* XibScrollViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */; };
 		625E16FE1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E16FD1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m */; };
+		62AD125C1FD7F7FC00DE3A07 /* PagingScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AD125B1FD7F7FC00DE3A07 /* PagingScrollViewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +65,18 @@
 		62493D6C1FD6A4340058BB87 /* CodeScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodeScrollViewVC.m; path = ch7_ScrollView/CodeScrollViewVC.m; sourceTree = "<group>"; };
 		624B5B291FD710F9007F1473 /* Main_ScrollView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_ScrollView.storyboard; sourceTree = "<group>"; };
 		624B5B2B1FD71216007F1473 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		62503A931FD7FA8500937A8F /* landscape_960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landscape_960.jpg; sourceTree = "<group>"; };
+		62503A951FD8049200937A8F /* TillingScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TillingScrollViewVC.h; path = ch7_ScrollView/TillingScrollViewVC.h; sourceTree = "<group>"; };
+		62503A961FD8049200937A8F /* TillingScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TillingScrollViewVC.m; path = ch7_ScrollView/TillingScrollViewVC.m; sourceTree = "<group>"; };
+		62503A981FD80D1100937A8F /* ZoomScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoomScrollViewVC.h; path = ch7_ScrollView/ZoomScrollViewVC.h; sourceTree = "<group>"; };
+		62503A991FD80D1100937A8F /* ZoomScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoomScrollViewVC.m; path = ch7_ScrollView/ZoomScrollViewVC.m; sourceTree = "<group>"; };
 		625E16F21FD6B94400EA8FAD /* XibScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XibScrollViewVC.h; path = ch7_ScrollView/XibScrollViewVC.h; sourceTree = "<group>"; };
 		625E16F31FD6B94400EA8FAD /* XibScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XibScrollViewVC.m; path = ch7_ScrollView/XibScrollViewVC.m; sourceTree = "<group>"; };
 		625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XibScrollViewVC.xib; path = ch7_ScrollView/XibScrollViewVC.xib; sourceTree = "<group>"; };
 		625E16FC1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryboardScrollViewVC.h; path = ch7_ScrollView/StoryboardScrollViewVC.h; sourceTree = "<group>"; };
 		625E16FD1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryboardScrollViewVC.m; path = ch7_ScrollView/StoryboardScrollViewVC.m; sourceTree = "<group>"; };
+		62AD125A1FD7F7FC00DE3A07 /* PagingScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PagingScrollViewVC.h; path = ch7_ScrollView/PagingScrollViewVC.h; sourceTree = "<group>"; };
+		62AD125B1FD7F7FC00DE3A07 /* PagingScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PagingScrollViewVC.m; path = ch7_ScrollView/PagingScrollViewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +151,7 @@
 		62493D3C1FD6A38B0058BB87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62503A931FD7FA8500937A8F /* landscape_960.jpg */,
 				62493D3D1FD6A38B0058BB87 /* Noeburg-Info.plist */,
 				62493D3E1FD6A38B0058BB87 /* InfoPlist.strings */,
 				62493D411FD6A38B0058BB87 /* main.m */,
@@ -176,6 +188,12 @@
 				625E16F71FD6C25600EA8FAD /* XibScrollViewVC.xib */,
 				625E16FC1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.h */,
 				625E16FD1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m */,
+				62503A951FD8049200937A8F /* TillingScrollViewVC.h */,
+				62503A961FD8049200937A8F /* TillingScrollViewVC.m */,
+				62AD125A1FD7F7FC00DE3A07 /* PagingScrollViewVC.h */,
+				62AD125B1FD7F7FC00DE3A07 /* PagingScrollViewVC.m */,
+				62503A981FD80D1100937A8F /* ZoomScrollViewVC.h */,
+				62503A991FD80D1100937A8F /* ZoomScrollViewVC.m */,
 				624B5B291FD710F9007F1473 /* Main_ScrollView.storyboard */,
 			);
 			name = ch7_ScrollView;
@@ -262,6 +280,7 @@
 				624B5B2A1FD710F9007F1473 /* Main_ScrollView.storyboard in Resources */,
 				62493D401FD6A38B0058BB87 /* InfoPlist.strings in Resources */,
 				625E16F81FD6C25600EA8FAD /* XibScrollViewVC.xib in Resources */,
+				62503A941FD7FA8500937A8F /* landscape_960.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +303,10 @@
 				62493D461FD6A38B0058BB87 /* AppDelegate.m in Sources */,
 				625E16F41FD6B94400EA8FAD /* XibScrollViewVC.m in Sources */,
 				62493D421FD6A38B0058BB87 /* main.m in Sources */,
+				62503A9A1FD80D1100937A8F /* ZoomScrollViewVC.m in Sources */,
 				62493D6D1FD6A4340058BB87 /* CodeScrollViewVC.m in Sources */,
+				62AD125C1FD7F7FC00DE3A07 /* PagingScrollViewVC.m in Sources */,
+				62503A971FD8049200937A8F /* TillingScrollViewVC.m in Sources */,
 				625E16FE1FD6EC0E00EA8FAD /* StoryboardScrollViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
